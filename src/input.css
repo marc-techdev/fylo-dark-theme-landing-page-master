@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-850: hsl(217, 28%, 15%);
+  --color-brand-900: hsl(218, 28%, 13%);
+  --color-brand-950: hsl(216, 53%, 9%);
+  --color-brand-800: hsl(219, 30%, 18%);
+  
+  --color-brand-teal: hsl(176, 68%, 64%);
+  --color-brand-cyan: hsl(198, 60%, 50%);
+  --color-brand-red: hsl(0, 100%, 63%);
+  
+  --font-sans: 'Open Sans', sans-serif;
+  --font-heading: 'Raleway', sans-serif;
+}
