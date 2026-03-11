@@ -1,18 +1,30 @@
-# Frontend Mentor - Fylo dark theme landing page solution
+# Fylo Dark Theme Landing Page
 
-This is a solution to the [Fylo dark theme landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+## Tech Stack
 
-### The challenge
+### Core Technologies
+- **HTML5**: Semantic markup structuring the landing page.
+- **JavaScript (Vanilla)**: Handles client-side interactivity and form validation.
+- **Tailwind CSS v4**: Utility-first CSS framework used for styling components with a strict mobile-first approach.
 
-Users should be able to:
+### Architecture & Design
+- **Clean HTML**: Tailwind utility classes and `@apply` directives are utilized to maintain readable component structures.
+- **Mobile-First Approach**: Styles are implemented starting from mobile devices and scaling up to desktop displays.
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
+## Features
 
-## My process
+- **Responsive Layout**: Adjusts seamlessly across a range of device screen sizes (mobile, tablet, desktop).
+- **Interactive UI**: Interactive elements include comprehensive hover states and dynamic feedback.
+- **Client-Side Validation**: Custom validation logic implemented for email submission forms, preventing empty or invalid inputs.
 
-### Built with
+## Development setup
 
-- Semantic HTML5 markup
-- Mobile-first workflow
-- [Tailwind CSS v4](https://tailwindcss.com/) - Utility-first CSS framework
+1. Install project dependencies for Tailwind CSS:
+   ```bash
+   npm install
+   ```
+2. Run the Tailwind CLI build process in watch mode:
+   ```bash
+   npx @tailwindcss/cli -i ./src/input.css -o ./style.css --watch
+   ```
+3. Serve the local directory (e.g., using Live Server or TestSprite on port 5500) and open `index.html` in your browser.
